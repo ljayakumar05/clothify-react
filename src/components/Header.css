@@ -1,23 +1,71 @@
-.header {
-    margin: 10px auto;
-    background-color: #f0f0f0;
-}
+/* Header Logo */
 .header{
     display: flex;
     justify-content: space-between;
-    background-color: gray;
-    margin: 0;
+    background-color: #FFF;
+    margin: 0 auto;
     height: 80px;
     padding: 15px 20px;
 }
 .logo {
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
 .logoImg {
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
+    margin-left: 30px;
 }
 .logoText{
-    color: red;
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 15px 0 0 10px
+}
+/* Header nav link */
+.nav-links{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 22px;
+}
+.nav-links a{
+    text-decoration: none;
+    color: black;
+    padding-top: 10px;
+}
+.nav-links a:hover{
+    text-decoration: underline red;
+    text-underline-offset: 6px;
+}
+/* Header button */
+.header-icons{
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+.login-btn{
+    width: 85px;
+    height: 35px;
+    margin: 0 20px;
+    border-radius: 15px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.login-btn:hover{
+    box-shadow: 5px 5px 5px 1px #000000;
+    border: 1px solid #FFF;
+}
+.bag-btn{
+    border: none;
+    background-color: transparent;
+}
+.bag-btn:hover{
+    cursor: pointer;
+}
+.bag-icon{
+    width: 30px;
+    height: 30px;
+    border:none;
 }

@@ -1,6 +1,7 @@
  import React from 'react';
  import "./Header.css";
  import logo from "../assets/logo.png";
+ import bagIcon from "../assets/cart_icon.png";
 
  function Header() {
     return (
@@ -22,9 +23,8 @@
 
             {/* Header Icons */}
             <div className="header-icons">
-                <button>Login</button>
-                <button>Wishlist</button>
-                <button>Bag (0)</button>
+                <button className="login-btn">Login</button>
+                <button className="bag-btn"><img src={bagIcon} alt="Bag" className="bag-icon"/></button>
             </div>
         </header>
     )
