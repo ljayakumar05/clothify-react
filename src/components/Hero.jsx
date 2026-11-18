@@ -7,7 +7,8 @@
         <section className="hero">
             <div className="hero-content">
                 <h4 className="hero-subtitle">New Arrivals Only</h4>
-                <h1 className="hero-title">Welcome to Our Store</h1>
+                <h1 className="hero-title">New Collections for everyone</h1>
+                <button className="hero-button">Latest Collections</button>
             </div>
             <div className="hero-image">
                 <img src={heroImage} className="hero-img" alt="Hero" />
