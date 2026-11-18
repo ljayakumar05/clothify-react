@@ -1,0 +1,21 @@
+.hero{
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.hero-subtitle{
+    font-size: 1.1rem;
+}
+.hero-title{
+    color: rgb(10, 77, 99);
+    text-align: center;
+    margin-top: 40px;
+    font-size: 2.1rem;
+}
+.hero-img{
+    width: 350px;
+    height: auto;
+    margin-left: 190px;
+}
