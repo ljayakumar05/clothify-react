@@ -16,5 +16,5 @@
         </section>
     )
  }
-
+ 
  export default Hero;

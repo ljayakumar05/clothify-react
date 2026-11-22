@@ -1,5 +1,5 @@
 .hero{
-    height: 60vh;
+    height: 70vh;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -25,7 +25,8 @@
 }
 .hero-img{
     width: 350px;
-    height: auto;
+    height: 450px;
+    object-fit: cover;
 }
 .hero-button{
     margin-top: 35px;
