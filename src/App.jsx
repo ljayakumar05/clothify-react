@@ -2,6 +2,7 @@ import Header from "./components/Header";
 import Hero from "./components/Hero";
 import ProductGrid from "./components/ProductGrid";
 import Exclusive from "./components/Exclusive";
+import Collection from "./components/Collections";
 import './App.css'
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <Hero />
       <ProductGrid />
       <Exclusive />
+      <Collection />
     </>
   )
 }

@@ -1,11 +1,51 @@
 .exclusive{
-    margin: 20px auto;
-    border: 1px solid rgb(32, 21, 21);
+    margin: 100px auto;
     width: 80%;
     height: 400px;
+    background: linear-gradient(to top, rgb(255, 241, 253), rgb(247, 180, 229));
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
 }
 .exclusiveTitle{
     text-align: center;
     font-size: 2.1rem;
     color: red;
+}
+.exclusive_content{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding-top: 100px;
+    margin-left: 60px;
+}
+.exclusive_content h1{
+    font-size: 2.9rem;
+    color: rgb(0, 0, 0);
+    margin-bottom: 20px;
+    width: 80%;
+    line-height: 3.7rem;
+}
+.exclusive_content p{
+    font-size: 1.2rem;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+}
+.exclusive_content button{
+    width: 200px;
+    height: 40px;
+    margin-top: 30px;
+    border-radius: 30px;
+    border: none;
+    background-color: rgb(224, 69, 69);
+    color: #fff;
+    font-size: 1.1rem;
+}
+.exclusiveImage{
+    width: auto;
+    height: 350px;
+    margin-right: 50px;
 }
